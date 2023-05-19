@@ -1,7 +1,7 @@
 # -Day_Notes_Node.js-and-React.js
 
 Notas - Back-end em Node.js e Front-End em React.js -- MongoDb para o banco de dados!
-no projeto a seguir pe realizado o CRUD (inclusão, delesão e obtençao de listas)
+no projeto a seguir pe realizado o CRUD (inclusão, deleção e obtenção de listas)
 
 para cada ação muda as caixinhas de notas
 
