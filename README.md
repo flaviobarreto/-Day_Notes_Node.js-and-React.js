@@ -15,3 +15,6 @@ para cada ação muda as caixinhas de notas
 
 
 ![image](https://github.com/flaviobarreto/-Day_Notes_Node.js-and-React.js/assets/95008802/3728c6f0-f6f5-4e7d-a542-b43241dda123)
+
+
+![image](https://github.com/flaviobarreto/-Day_Notes_Node.js-and-React.js/assets/95008802/44052256-7657-4a4d-acc3-9e730daf498f)
