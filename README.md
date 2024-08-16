@@ -1,75 +1,46 @@
-Day Notes
+# Day Notes
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Node.js](https://img.shields.io/badge/Node.js-16.x-brightgreen.svg)
+![React.js](https://img.shields.io/badge/React.js-18.x-blue.svg)
+![MongoDB](https://img.shields.io/badge/MongoDB-5.x-green.svg)
 
+**Day Notes** é uma aplicação web para gerenciar notas diárias, utilizando um back-end em **Node.js** e um front-end em **React.js**, com **MongoDB** como banco de dados. O projeto implementa funcionalidades CRUD completas, permitindo a criação, leitura, atualização e exclusão de notas.
 
+## 📚 Funcionalidades
 
-Day Notes é uma aplicação web para gerenciar notas diárias, utilizando um back-end em Node.js e um front-end em React.js, com MongoDB como banco de dados. O projeto implementa funcionalidades CRUD completas, permitindo a criação, leitura, atualização e exclusão de notas.
+- **CRUD Completo:** Adicione, edite, exclua e visualize notas.
+- **Interface Dinâmica:** As notas são exibidas em "caixinhas" que mudam dinamicamente conforme cada ação.
+- **Banco de Dados:** Armazena e gerencia as notas usando MongoDB.
 
-📚 Funcionalidades
-CRUD Completo: Adicione, edite, exclua e visualize notas.
-Interface Dinâmica: As notas são exibidas em "caixinhas" que mudam dinamicamente conforme cada ação.
-Banco de Dados: Armazena e gerencia as notas usando MongoDB.
-🛠️ Tecnologias Utilizadas
-Node.js: Servidor back-end.
-Express.js: Framework para Node.js.
-React.js: Biblioteca para criação de interfaces de usuário.
-MongoDB: Banco de dados NoSQL para armazenamento de dados.
-Mongoose: ODM para MongoDB.
-Axios: Cliente HTTP para comunicação entre o front-end e back-end.
-🎨 Capturas de Tela
-Tela Principal
+## 🛠️ Tecnologias Utilizadas
 
+- **Node.js:** Servidor back-end.
+- **Express.js:** Framework para Node.js.
+- **React.js:** Biblioteca para criação de interfaces de usuário.
+- **MongoDB:** Banco de dados NoSQL para armazenamento de dados.
+- **Mongoose:** ODM para MongoDB.
+- **Axios:** Cliente HTTP para comunicação entre o front-end e back-end.
 
-Adicionando uma Nota
+## 🎨 Capturas de Tela
 
+### Tela Principal
+![Tela Principal](https://github.com/flaviobarreto/-Day_Notes_Node.js-and-React.js/assets/95008802/e5531b53-c3af-4c3f-a181-f82450d3ccf0)
 
-Excluindo uma Nota
+### Adicionando uma Nota
+![Adicionando uma Nota](https://github.com/flaviobarreto/-Day_Notes_Node.js-and-React.js/assets/95008802/5100de97-eb2f-4604-bcf9-3b16459962d7)
 
+### Excluindo uma Nota
+![Excluindo uma Nota](https://github.com/flaviobarreto/-Day_Notes_Node.js-and-React.js/assets/95008802/2db51f1c-2c94-4469-b7c9-a637e8a8bac1)
 
-Lista de Notas
+### Lista de Notas
+![Lista de Notas](https://github.com/flaviobarreto/-Day_Notes_Node.js-and-React.js/assets/95008802/3728c6f0-f6f5-4e7d-a542-b43241dda123)
 
+### Editando uma Nota
+![Editando uma Nota](https://github.com/flaviobarreto/-Day_Notes_Node.js-and-React.js/assets/95008802/44052256-7657-4a4d-acc3-9e730daf498f)
 
-Editando uma Nota
+## 🚀 Como Executar o Projeto
 
-
-🚀 Como Executar o Projeto
-Clone o repositório:
-
-bash
-Copiar código
-git clone https://github.com/seu-usuario/Day-Notes.git
-Instale as dependências do back-end:
-
-bash
-Copiar código
-cd backend
-npm install
-Instale as dependências do front-end:
-
-bash
-Copiar código
-cd ../frontend
-npm install
-Configure as variáveis de ambiente:
-
-Crie um arquivo .env no diretório backend com as seguintes variáveis:
-bash
-Copiar código
-MONGO_URI=mongodb://localhost:27017/daynotes
-PORT=5000
-Execute o servidor back-end:
-
-bash
-Copiar código
-npm start
-Execute o front-end:
-
-bash
-Copiar código
-npm start
-Acesse a aplicação:
-
-Front-end: http://localhost:3000
-Back-end: http://localhost:5000/api
-📄 Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/Day-Notes.git
