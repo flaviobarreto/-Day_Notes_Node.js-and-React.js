@@ -42,5 +42,30 @@
 ## 🚀 Como Executar o Projeto
 
 1. **Clone o repositório:**
-   ```bash
    git clone https://github.com/seu-usuario/Day-Notes.git
+
+
+
+2. **Instale as dependências do back-end:**
+cd backend
+npm install
+
+
+3. **Instale as dependências do front-end:**
+cd ../frontend
+npm install
+
+4. **Configure as variáveis de ambiente:**
+Crie um arquivo .env no diretório backend com as seguintes variáveis:
+MONGO_URI=mongodb://localhost:27017/daynotes
+PORT=5000
+
+5. **Execute o servidor back-end:**
+npm start
+
+5. **Execute o front-end:**
+npm start
+
+5. **Acesse a aplicação:**
+Front-end: http://localhost:3000
+Back-end: http://localhost:5000/api
